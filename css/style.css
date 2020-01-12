@@ -19,7 +19,7 @@ body {
   height: 35px;
 }
 #logo:hover {
-  transition: 3s;
+  transition: 1s;
   transition-delay: 0.5s;
   transform: rotate(360deg);
 }
@@ -50,6 +50,11 @@ body {
   text-decoration: none;
   font-size: 14px;
   padding: 15px;
+}
+.page-scroll:hover {
+  text-decoration: none;
+  color: tomato;
+  border-bottom: 1px solid tomato;
 }
 
 #home {
@@ -124,7 +129,7 @@ body {
   height: 150px;
   display: flex;
   align-items: center;
-  background-color: teal;
+  background-color: rgba(0, 0, 0, 0.7);
   margin-top: 50px;
 }
 blockquote {
