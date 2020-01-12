@@ -14,13 +14,14 @@ body {
   height: 50px;
   background-color: rgba(0, 0, 0, 0.8);
 }
-.logo-container {
-  display: flex;
-  flex-direction: row;
-}
 #logo {
   width: 35px;
   height: 35px;
+}
+#logo:hover {
+  transition: 3s;
+  transition-delay: 0.5s;
+  transform: rotate(360deg);
 }
 .logo-container {
   display: flex;
@@ -177,6 +178,10 @@ blockquote h3:after {
   width: 100px;
   height: 100px;
   margin: 20px 50px 20px 50px;
+  filter: grayscale(100%);
+}
+.img-skills:hover {
+  filter: grayscale(0);
 }
 .skills-section {
   display: flex;
@@ -190,7 +195,7 @@ blockquote h3:after {
   justify-content: space-evenly;
 }
 .resume {
-  height: 50vh;
+  height: 45vh;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
     url("https://i.picsum.photos/id/0/5616/3744.jpg");
   background-size: cover;
@@ -213,5 +218,7 @@ blockquote h3:after {
 #work {
   width: 100vw;
   height: 100vh;
-  background-color: #fff;
+  background-image: url("../images/skills/under-construction.gif");
+  background-size: cover;
+  background-position: center;
 }
